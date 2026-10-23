@@ -104,11 +104,13 @@ contactForm.addEventListener('submit', async (e) => {
     formData.append('_captcha', 'false');
     formData.append('_template', 'table');
 
-    const response = await fetch('https://formsubmit.co/vaishnavikulkarni294@gmail.com', {
-      method: 'POST',
-      body: formData,
-      headers: { 'Accept': 'application/json' }
-    });
+    const response = await fetch('https://formsubmit.co/d7c96ef4eb10d6fa0d0ff5bc5d3b50db', {
+     method: 'POST',
+  body: formData,
+  headers: { 
+    'Accept': 'application/json' 
+  }
+});
 
     if (response.ok) {
       showStatus('✅ Message sent!  will reply soon.', 'success');
