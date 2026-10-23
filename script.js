@@ -104,7 +104,7 @@ contactForm.addEventListener('submit', async (e) => {
     formData.append('_captcha', 'false');
     formData.append('_template', 'table');
 
-    const response = await fetch('https://formsubmit.co/vaishnavikulkarni294@gmail.com"', {
+    const response = await fetch('https://formsubmit.co/vaishnavikulkarni294@gmail.com', {
       method: 'POST',
       body: formData,
       headers: { 'Accept': 'application/json' }
