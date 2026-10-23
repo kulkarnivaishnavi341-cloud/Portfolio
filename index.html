@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vaishnvi Kulkarni | Web Developer | Data analyst | AI & Data Science Portfolio</title>
+ <meta name="description" content="Vaishnvi Kulkarni is a Web Developer, Data Analystand AI & Data Science  . Explore projects, skills, certifications, internships, and contact information." />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Animated Background -->
+  <div class="bg-orbs">
+    <div class="orb orb1"></div>
+    <div class="orb orb2"></div>
+    <div class="orb orb3"></div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">VK<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#internships">Internships</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#home" onclick="closeMobile()">Home</a></li>
+      <li><a href="#about" onclick="closeMobile()">About</a></li>
+      <li><a href="#skills" onclick="closeMobile()">Skills</a></li>
+      <li><a href="#projects" onclick="closeMobile()">Projects</a></li>
+      <li><a href="#internships" onclick="closeMobile()">Internships</a></li>
+      <li><a href="#certifications" onclick="closeMobile()">Certifications</a></li>
+      <li><a href="#contact" onclick="closeMobile()">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-left">
+        <div class="badge-chip">✦ Available for Opportunities</div>
+        <h1 class="hero-name">
+          <span class="line1">Vaishnavi</span>
+          <span class="line2">Kulkarni</span>
+        </h1>
+        <p class="hero-role">Aspiring Software Engineer ·Python Developer</p>
+        <p class="hero-sub">B.Tech Computer Science &amp; Engineering · Expected 2027</p>
+        <p class="hero-tagline">Building intelligent, scalable &amp; data-driven solutions with modern technology.</p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn-primary">View My Projects</a>
+          <a href="#contact" class="btn-outline">Contact Me</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/kulkarnivaishnavi341-cloud" target="_blank" class="social-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/vaishnavi-kulkarni1511" target="_blank" class="social-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="mailto:kulkarnivaishnavi341@gmail.com" class="social-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="photo-ring-wrapper">
+          <div class="photo-ring-outer">
+            <div class="photo-ring-inner">
+              <div class="photo-circle">
+                <img src="vaishnavi.jpeg" alt="Vaishnavi Kulkarni" />
+              </div>
+            </div>
+          </div>
+          
+          
+          
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll Down</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-label">Who I Am</div>
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I am <strong>Vaishnavi Kulkarni</strong>, a final-year B.Tech student in <strong>Computer Science and Engineering</strong> at Fabtech Technical Campus College of Engineering and Research, Sangola (Expected Graduation: August 2027).</p>
+          <p>I have a  foundation in <strong>Python, Machine Learning, and Data Analytics</strong>. I love solving real-world problems by building smart and efficient software solutions.</p>
+          <p>I actively build projects, participate in National events as well as technical events, and keep learning new technologies to sharpen my skills.</p>
+          <p>I am currently looking for <strong>entry-level opportunities</strong> as a Data Analyst, Web Developer, or Python Developer where I can work on impactful projects and grow in the field of AI and Machine Learning.</p>
+          <div class="about-stats">
+            <div class="stat-box">
+              <span class="stat-num">10+</span>
+              <span class="stat-label">Certifications</span>
+            </div>
+            
+            <div class="stat-box">
+              <span class="stat-num">2+</span>
+              <span class="stat-label">Internships</span>
+            </div>
+          </div>
+        </div>
+        <div class="education-card">
+          <h3 class="card-title">🎓 Education</h3>
+          <div class="edu-item">
+            <div class="edu-dot"></div>
+            <div>
+              <p class="edu-degree">B.Tech – Computer Science and Engineering (Pursuing)</p>
+              <p class="edu-institute">Fabtech Technical Campus, Sangola</p>
+              <span class="edu-year">Expected: August 2027</span>
+            </div>
+          </div>
+          <div class="edu-item">
+            <div class="edu-dot"></div>
+            <div>
+              <p class="edu-degree">Diploma  – Information Technology – 62.33%</p>
+              <p class="edu-institute">New Satara Polytechnic, Korti, Pandharpur</p>
+              <span class="edu-year"> 2024</span>
+            </div>
+          </div>
+          <div class="edu-item">
+            <div class="edu-dot"></div>
+            <div>
+              <p class="edu-degree">12th Grade – 62.33%</p>
+              <p class="edu-institute">Vivek Vardhini Junior College, Pandharpur</p>
+              <span class="edu-year"> 2022</span>
+            </div>
+          </div>
+          <div class="edu-item">
+            <div class="edu-dot"></div>
+            <div>
+              <p class="edu-degree">10th Grade –77%</p>
+              <p class="edu-institute">Vivek Vardhini Vidyalay, Pandharpur</p>
+              <span class="edu-year"> 2020</span>
+            </div>
+          </div>
+          <div class="location-chip">📍 Pandharpur, Solapur, Maharashtra, India</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section section-dark" id="skills">
+    <div class="container">
+      <div class="section-label">What I Know</div>
+      <h2 class="section-title light">Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <div class="skill-icon">💻</div>
+          <h3>Programming Languages</h3>
+          <div class="skill-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Python</span>
+            <span class="tag">SQL</span>
+            <span class="tag">Numpy</span>
+            <span class="tag">Pandas</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <div class="skill-icon">🤖</div>
+          <h3>AI &amp; Data</h3>
+          <div class="skill-tags">
+            <span class="tag">Machine Learning</span>
+            <span class="tag">Data Analytics</span>
+            <span class="tag">Data Science</span>
+            <span class="tag">Data Cleaning</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <div class="skill-icon">🗄️</div>
+          <h3>Databases</h3>
+          <div class="skill-tags">
+            <span class="tag">SQL</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">SQLite</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <div class="skill-icon">🛠️</div>
+          <h3>Tools &amp; IDEs</h3>
+          <div class="skill-tags">
+            <span class="tag">VS Code</span>
+            <span class="tag">PyCharm</span>
+            <span class="tag">Python-IDE</span>
+            <span class="tag">BootStrap</span>
+            <span class="tag">PowerBI</span>
+            <span class="tag">Git</span>
+            <span class="tag">GitHub</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-label">What I Built</div>
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-badge badge-silver">Simple language learning website</div>
+          <h3>simple language-sikho Portal</h3>
+          <p>Language-Sikho is my first project, a standalone educational website designed to help students learn programming languages easily. I developed this website using HTML, CSS, and JavaScript. It includes different programming languages such as C, C++, Java, SQL, and PHP in the navigation bar. Each language section provides its history, basic information, key concepts, important points, examples, and programs with their expected outputs. It also explains the advantages and disadvantages of each language. The main goal of this project is to make programming concepts simple, clear, and easy for students to understand.</p>
+          <div class="project-tech">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <a href="https://github.com/kulkarnivaishnavi341-cloud/language-sikho" target="_blank" class="project-link">View on GitHub →</a>
+        </div>
+
+        <div class="project-card project-featured">
+          <div class="project-badge badge-gold">I Build Simple Calculator </div>
+          <h3>Basic Calculator </h3>
+          <p> Developed a responsive calculator to perform basic arithmetic operations: addition, subtraction, multiplication, and division.
+Designed a simple, user-friendly interface with interactive buttons and real-time result display.
+Strengthened frontend development and JavaScript programming skills.</p>
+          <div class="project-tech">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <div class="project-highlights">
+            <span>✓ Simple and user-friendly interface</span>
+            <span>✓ Interactive buttons with instant calculation results</span>
+            <span>✓ Improved JavaScript logic and frontend development skills.</span>
+             </div>
+            <a href="https://github.com/kulkarnivaishnavi341-cloud/basic-calculator" target="_blank" class="project-link">View on GitHub →</a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-badge badge-gold">I Built theAge Calculator</div>
+          <h3>Age Calculator</h3>
+          <p>Developed a user-friendly web application to calculate a person's age based on their date of birth.
+
+Implemented JavaScript logic to calculate age in years, months, and days.
+
+Designed a simple, interactive interface using HTML and CSS.
+
+Key Skills: Frontend Development, JavaScript Logic, Date Handling, and UI Design.</p>
+          <div class="project-tech">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <div class="project-highlights">
+            <span>✓ Calculates age in years, months, and days.</span>
+            <span>✓ Uses date of birth to calculate age dynamically.</span>
+            <span>✓ Simple and user-friendly interface.</span>
+            <span>✓ JavaScript logic, date handling, and frontend development.</span>
+             </div>
+          <a href="https://github.com/kulkarnivaishnavi341-cloud/age_calculator-web" target="_blank" class="project-link">View on GitHub →</a>
+        </div>
+
+        <div class="project-card"> 
+          <div class="project-badge badge-blue">I Built the Image Gallery</div>
+          <h3>Image Gallery</h3>
+          <p>Developed an interactive image gallery with image filtering and category-based navigation for efficient image browsing.Implemented dynamic filtering to help users quickly find images based on selected categories.Designed a clean, responsive interface to improve image organization and user experience.Impact: Simplified image discovery and reduced the effort required to browse images across multiple categories.</p>
+               <div class="project-tech">
+                 <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+           <div class="project-highlights">
+            <span>✓ Image filtering and category-based navigation.</span>
+            <span>✓ Dynamic image filtering based on selected categories.</span>
+            <span>✓ Clean, interactive, and responsive design.</span>
+            <span>✓ Simplified image browsing and improved image discovery.</span>
+             </div>
+          <a href="https://github.com/kulkarnivaishnavi341-cloud/Image-gallary" target="_blank" class="project-link">View on GitHub →</a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-badge badge-blue">👨🏻‍💻 I Built the AI Chatbot</div>
+          <h3>AI Chatbot</h3>
+          <p>Successfully Developed a Python-based chatbot to interact with users and answer queries.Implemented user input processing and automated response generation.Designed conversational logic to provide a simple and interactive user experience.
+Key Points: Python Programming, Query Handling, Logic Building, and Problem-Solving.</p>
+          <div class="project-tech">
+            <span>Python Programming</span><span>Query Handling</span><span>24/7 support</span>
+          </div>
+           <div class="project-highlights">
+            <span>✓ Interactive conversations and automated responses.</span>
+            <span>✓ Processes user queries and generates responses.</span>
+            <span>✓ Problem-Solving, Logical Thinking, and Python Programming.</span>
+            </div>
+         <a href="https://github.com/kulkarnivaishnavi341-cloud/AI-Chatbot" target="_blank" class="project-link">View on GitHub →</a>
+        </div>
+
+
+         <div class="project-card project-featured">
+          <div class="project-badge badge-gold">I Built The Hangman Game</div>
+          <h3> Hangman Game </h3>
+          <p>Developed an interactive word-guessing game using Python.Implemented random word selection, letter guessing, and limited attempts.Added game logic to track correct and incorrect guesses and determine win or loss conditions. </p>
+          <div class="project-tech">
+            <span>Python Programming</span><span>Conditional Statements</span><span>Logic Building</span>
+          </div>
+          <div class="project-highlights">
+            <span>✓ Random word selection and letter guessing.</span>
+            <span>✓ Tracks correct and incorrect guesses with limited attempts </span>
+            <span>✓ Displays win or lose results based on the player's guesses. </span>
+         </div>
+         <a href="https://github.com/kulkarnivaishnavi341-cloud/Hangman-game" target="_blank" class="project-link">View on GitHub →</a>
+        </div>
+
+        <div class="project-card project-featured">
+          <div class="project-badge badge-silver">Script Automation</div>
+          <h3> Script Automation </h3>
+          <p>Developed Python scripts to automate repetitive tasks and simplify manual processes.Implemented automation logic to improve efficiency and reduce manual effort.Strengthened skills in Python programming, scripting, and problem-solving.</p>
+          <div class="project-tech">
+            <span>Python Programming</span><span>Python Scripting</span><span>Problem-Solving</span><span>Automation</span><span>Logical Thinking</span>
+          </div>
+          <div class="project-highlights">
+            <span>✓ Automates repetitive tasks using Python scripts.</span>
+            <span>✓ Reduces manual effort by executing predefined tasks automatically. </span>
+            <span>✓ Improves productivity and saves time through task automation. </span>
+         </div>
+         <a href="https://github.com/kulkarnivaishnavi341-cloud/Script-Automation" target="_blank" class="project-link">View on GitHub →</a>
+        </div>
+
+        <div class="project-card project-featured">
+          <div class="project-badge badge-silver">Food Ordering System</div>
+          <h3> Food Ordering System</h3>
+          <p>Developed a food ordering website that allows users to explore food items and place orders conveniently.Designed a user-friendly interface for browsing menus and viewing food details.Implemented essential food ordering features to provide a smooth user experience.</p>
+          <div class="project-tech">
+            <span>C# Programming</span><span>Object-Oriented Programming (OOP)</span><span>Problem-Solving</span><span>web Development.</span><span>Logical Thinking</span>
+          </div>
+          <div class="project-highlights">
+            <span>✓ Food menu management and order processing.</span>
+            <span>✓ Simplified food selection and ordering. </span>
+            <span>✓  Food searching, sorting, filtering, and category-based browsing. </span>
+         </div>
+         <a href="https://github.com/kulkarnivaishnavi341-cloud/Foodie" target="_blank" class="project-link">View on GitHub →</a>
+        </div>
+
+        <div class="project-card project-featured">
+          <div class="project-badge badge-silver">AI-Based Fake Job Detection System</div>
+          <h3> AI-Based Fake Job Detection System</h3>
+          <p>Developed a system to identify potentially fake job and internship postings using machine learning.Implemented text analysis to classify job postings as Genuine or Fake.Generated risk assessments to help students identify suspicious job opportunities.</p>
+          <div class="project-tech">
+            <span>Python</span><span>Machine Learning</span><span>NLP</span><span>TF-IDF</span><span>Scikit-learn.</span>
+          </div>
+          <div class="project-highlights">
+            <span>✓ Classifies job postings as Genuine or Fake using machine learning.</span>
+            <span>✓ Uses NLP and TF-IDF for job description analysis.</span>
+            <span>✓ Identifies potentially suspicious job postings.</span>
+         </div>
+         <a href="https://github.com/kulkarnivaishnavi341-cloud/Ai-based-job-detection-system" target="_blank" class="project-link">View on GitHub →</a>
+        </div>
+
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Internships -->
+  <section class="section section-dark" id="internships">
+    <div class="container">
+      <div class="section-label">I Done</div>
+      <h2 class="section-title light">Internships</h2>
+      <div class="achievements-grid">
+
+        <div class="achievement-card">
+          <div class="ach-icon"></div>
+         <h4>Frontend Developement Intern | <b>CodeAlpha</b></h4>
+          <p>Worked as a Frontend Developement Intern at CodeAlpha, gaining practical experience in web development. Built interactive and user-friendly web interfaces using HTML, CSS, and JavaScript. Improved my skills in responsive design, frontend functionality, and problem-solving while developing hands-on projects. This internship helped me strengthen my technical skills and understand real-world web development practices.</p>
+          <p><b>- Languages:</b> HTML, CSS, JavaScript<br>
+            <b>- Tools:</b> Visual Studio Code, Git, GitHub<br>
+            <b>- Development:</b> Responsive Web Design, UI Development<br>
+            <b>- Skills:</b> Debugging, Problem-Solving, and Frontend Development</p>
+        </div>
+
+        <div class="achievement-card">
+          <div class="ach-icon"></div>
+          <h4>Web Developement Intern | <b>CodeAlpha</b></h4>
+          <p>Completed a Web Development Internship at CodeAlpha, gaining hands-on experience in building interactive and responsive websites. Worked with HTML, CSS, and JavaScript to develop user-friendly web interfaces. Strengthened my skills in frontend development, debugging, and problem-solving while learning practical web development concepts.</p>
+          <p><b>Frontend:</b> HTML, CSS, JavaScript<br>
+          <b>- Programming: </b>Python<br>
+          <b>- Tools: </b>Visual Studio Code, Git, GitHub<br>
+        <b>- Key Skills: </b>Responsive Web Design, UI Development, Debugging, and Problem-Solving<</p>
+        </div>
+
+     </div></div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="section" id="certifications">
+    <div class="container">
+      <div class="section-label">Proof of Learning</div>
+      <h2 class="section-title">Certifications</h2>
+      <div class="cert-grid">
+
+        <div class="cert-card">
+          <div class="cert-org">IBM SkillsBuild</div>
+          <h4>4 Different ways to Communicate Effectively In The Workplace | Indeed Career Guide</h4>
+          <p>Learned effective workplace communication techniques to improve teamwork, collaboration, and professional relationships. Gained insights into active listening, clear communication, constructive feedback, and adapting communication styles to different situations. Strengthened my interpersonal and professional communication skills.<br>
+           <br><b>Completion Date: 13 Sep 2025</b></p>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-org">IBM SkillsBuild</div>
+          <h4>IBM Design Thinking Toolkit</h4>
+          <p>Learned the fundamentals of design thinking to understand user needs and develop effective solutions. Gained knowledge of empathy, problem definition, ideation, prototyping, and testing. Developed skills in creative problem-solving, user-centered design, and collaborative innovation.<br>
+           <br><b>Completion Date: 13 Sep 2025</b></p>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-org">Govt. of India – NIPAM</div>
+          <h4>National IP Awareness Mission</h4>
+          <p>Participated in IP Awareness/Training program under National Intellectual Property Awareness Mission. Jan 13, 2026. Organized by Intellectual Property Office, India.<br>
+          <br><b>Completion Date:  13 Jan 2026</b></p>
+        </p>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-org">Ministry of Youth Affairs</div>
+          <h4>MYBharat – DFPD Online Quiz</h4>
+          <p>Participated in the DFPD Online Quiz conducted through the MYBharat initiative under the Ministry of Youth Affairs and Sports, Government of India. Enhanced my general knowledge, awareness of relevant topics, and learning through an interactive quiz-based assessment.<br>
+          <br><b>Completion Date: 05 Feb 2026</b></p>
+        </p>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-org">UNICEF</div>
+          <h4>Digital Productivity with AI – Passport to Earning</h4>
+          <p>Completed a learning program focused on using AI tools to improve digital productivity and workplace efficiency. Gained knowledge of AI-assisted tasks, digital skills, and responsible technology use. Strengthened digital literacy, productivity, and career-readiness skills for the modern workplace.<br>
+          <br><b>Completion Date: 27 Mar 2026</b></p></p>
+        </div>
+
+       
+
+         <div class="cert-card">
+          <div class="cert-org">UNICEF</div>
+          <h4>Design Fundamentals with AI - Adobe – Passport to Earning</h4>
+          <p>Completed a learning program focused on design fundamentals and AI-powered creative tools. Gained knowledge of visual design principles, creative thinking, and AI-assisted content creation. Developed skills in digital design, visual communication, and creating engaging digital content.<br>
+             <br><b>Completion Date: 05 Feb 2026</b></p>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-org">UNICEF</div>
+          <h4>Employability Skills Foundation Course– Passport to Earning | Wadhwani Foundation</h4>
+          <p>Completed a foundation course focused on developing essential workplace and career-readiness skills. Improved knowledge of communication, teamwork, problem-solving, time management, and professional behavior. Strengthened employability skills to prepare for future career opportunities.
+            <br><b>Completion Date: 05 Feb 2026</b></p>
+        </div>
+
+         <div class="cert-card">
+          <div class="cert-org">TCS iON</div>
+          <h4>TCS iON Career Edge – AI Foundation</h4>
+          <p>Completed training in AI fundamentals, Generative AI, and Prompt Engineering. Gained knowledge of AI applications, effective prompt creation, and responsible AI usage. Developed foundational skills in AI tools and their practical applications for learning and workplace productivity.<br>
+          <br><b>Completion Date: 22 Sep 2026</b>
+          </p>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-org">TCS iON</div>
+          <h4>TCS iON Career Edge – Interview & Job Readiness</h4>
+          <p>Completed training focused on interview preparation, effective communication, and professional skills. Improved understanding of resume writing, interview techniques, workplace etiquette, and self-presentation. Strengthened confidence, interpersonal communication, and career-readiness skills.
+           <br><b>Completion Date: 01 Apr 2026</b></p>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-org">SVER’s College of Engineering</div>
+          <h4>OLYMPUS-2K25 –Mirror Code –National Level Technical Symposium</h4>
+          <p> participated in OLYMPUS-2K25 – A Series of National Level Technical Symposium, organized by SVERI’s College of Engineering, Pandharpur on 15th & 16th September 2025.
+This experience gave me an opportunity to participate in a national-level technical event, showcase my knowledge, and learn through healthy technical competition.
+           <br><b>Completion Date: 16 Sep 2025.</b></p>
+        </div>
+
+     <div class="cert-card">
+          <div class="cert-org">Fabtech Technical Campus</div>
+          <h4>TECHNO-FAB 2K26 – AI Prompt Engineering </h4>
+          <p>Participated in an AI Prompt Engineering event, gaining exposure to effective prompt design and AI tool interaction. Learned how clear and structured prompts can improve AI-generated responses and support problem-solving, creativity, and productivity.
+        <br><b>Completion Date: 25 March 2025.</b></p>
+      </div>
+
+       <div class="cert-card">
+          <div class="cert-org">Job Simulation</div>
+          <h4>Deloitte Data Analytics Job Simulation </h4>
+          <p>Completed a virtual job simulation focused on data analytics and business problem-solving. Gained practical exposure to data analysis, interpreting data insights, and presenting findings to support informed business decisions.
+        <br><b>Completion Date: 4 Sep 2026.</b></p>
+      </div>
+
+      <div class="cert-card">
+          <div class="cert-org">Job Simulation</div>
+          <h4>GenAI Powered Data Analytics Job Simulation | Tata – Forage </h4>
+          <p>Completed a virtual job simulation focused on using Generative AI in data analytics. Gained practical exposure to analyzing data, generating insights, and using AI tools to support business decision-making.
+           <br><b>Completion Date: 4 Sep 2026.</b></p>
+      </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section-dark" id="contact">
+    <div class="container">
+      <div class="section-label">Let's Talk</div>
+      <h2 class="section-title light">Contact Me</h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="ci-icon">📧</div>
+            <div>
+              <p class="ci-label">Email</p>
+              <a href="mailto:kulkarnivaishnavi341@gmail.com">kulkarnivaishnavi341@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon">📍</div>
+            <div>
+              <p class="ci-label">Location</p>
+              <p>Pandharpur(413304), Maharashtra, India</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon">💼</div>
+            <div>
+              <p class="ci-label">LinkedIn</p>
+              <a href="https://www.linkedin.com/in/vaishnavi-kulkarni1511" target="_blank">linkedin.com/in/vaishnavi-kulkarni1511</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon">🐙</div>
+            <div>
+              <p class="ci-label">GitHub</p>
+              <a href="https://github.com/kulkarnivaishnavi341-cloud" target="_blank">github.com/kulkarnivaishnavi341-cloud</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-wrapper">
+  
+  <form id="contactForm" class="contact-form" action="https://formsubmit.co/vaishnavikulkarni294@gmail.com" method="POST">
+    
+    <div class="form-group">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" placeholder="Ms.Vaishnavi Kulkarni" required />
+    </div>
+    
+    <div class="form-group">
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" placeholder="vaishnavi@example.com" required />
+    </div>
+    
+    <div class="form-group">
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" name="subject" placeholder="Job Opportunity / Collaboration" required />
+    </div>
+    
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Tell me more about it..." required></textarea>
+    </div>
+    
+    <button type="submit" class="btn-primary full-width">Send Message ✉️</button>
+    <div id="formStatus" class="form-status"></div>
+  </form>
+</div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p class="footer-name">Vaishnavi Kulkarni</p>
+      <p class="footer-sub">Aspiring Data Analyst · AI &amp; Machine Learning · Machine Learning  · 2027</p>
+      <div class="footer-links">
+        <a href="https://github.com/kulkarnivaishnavi341-cloud" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/vaishnavi-kulkarni1511" target="_blank">LinkedIn</a>
+        <a href="mailto:kulkarnivaishnavi341@gmail.com">Email</a>
+      </div>
+      <p class="footer-copy">&copy; 2026 Vaishnavi Kulkarni. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
